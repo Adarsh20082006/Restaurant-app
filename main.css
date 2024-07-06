@@ -171,6 +171,12 @@
     font-weight: 600;
 }
 
+.healty-section-img {
+    max-width: 100%;
+    min-width: 60%;
+    width: 70%;
+}
+
 
 
 .d-p-section {
