@@ -15,12 +15,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2a86b42504.js" crossorigin="anonymous"></script>
     <title>Restaurant app</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <nav class="main-nav-container d-flex justify-content-center">
+    <nav class="main-nav-container d-flex justify-content-center fixed-top bg-light">
         <div class="nav-container container">
             <div class="nav-logo">
                 <a href="#">
@@ -47,8 +48,12 @@
         <h1 class="banner-heading mb-3">Get Delicious Food Anytime</h1>
         <p class="banner-caption mb-4">Eat Smart & Healthy</p>
         <div class="buttons">
-            <button class="btn custom-button">View Menu</button>
-            <button class="btn custom-outline-button">Order Now</button>
+            <a href="#menuSection">
+                <button class="btn custom-button">View Menu</button>
+            </a>
+            <a href="#delhiveryAndPayment">
+                <button class="btn custom-outline-button">Order Now</button>
+            </a>
         </div>
     </div>
     <div id="WhyChooseUs" class="container wcu-section">
@@ -289,7 +294,28 @@
                         alt="Gift image">
                 </div>
                 <div class="col-12 d-inline d-md-none">
-                    <button class="btn btn-warning text-light">Redeem Gift</button>
+                    <button class="btn btn-warning gift-btn text-light">Redeem Gift</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="followUs-section container">
+        <div class="followUs-card container text-center">
+            <h1 class="followUs-heading">Follow Us</h1>
+            <div class="row justify-content-center">
+                <div class="followUs-icon">
+                    <i class="fa-brands fa-twitter icon"></i>
+
+                </div>
+                <div class="followUs-icon">
+
+                    <i class="fa-brands fa-github icon"></i>
+
+                </div>
+                <div class="followUs-icon">
+
+                    <i class="fa-brands fa-linkedin icon"></i>
                 </div>
             </div>
         </div>

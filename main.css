@@ -14,7 +14,7 @@
     margin: 0px;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffffc6;
+
     height: 70px;
     position: relative;
 }
@@ -219,6 +219,11 @@
     box-shadow: 0px 0px 1px black;
     padding: 15px;
     margin-bottom: 20px;
+    background-image: radial-gradient(#d69f2ae7, #ffff00);
+}
+
+.gift-btn {
+    background-image: linear-gradient(to right, #e5801be7, #ff66008e);
 }
 
 .thanking-img {
@@ -260,6 +265,30 @@
         font-weight: 500;
         transition: all 1s ease-in-out;
     }
+}
+
+.followUs-icon {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d5cf27;
+    border-radius: 50%;
+    margin: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 40px;
+    color: #646408b2
+}
+
+.followUs-heading {
+    font-size: 28px;
+    font-weight: 600;
 }
 
 @media screen and (width<=576px) {
