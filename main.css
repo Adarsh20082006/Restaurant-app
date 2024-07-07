@@ -281,6 +281,11 @@
     cursor: pointer;
 }
 
+.links-follow,
+.links-follow:hover {
+    text-decoration: none;
+}
+
 .icon {
     font-size: 40px;
     color: #646408b2
